@@ -1,0 +1,47 @@
+@keyframes animate {
+    0%{color:white}
+    25%{color:red}
+    50%{color:green}
+    75%{color:yellow}
+    100%{color:blue}
+    
+}
+.common-container{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.common-container div h1{
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ 
+}
+.card-text{
+    color: rgba(0, 0, 0, 0.767);
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 500px){
+    .common-container div h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    .common-container{
+        height: 100%;
+        padding-top: 60px;
+    }
+}

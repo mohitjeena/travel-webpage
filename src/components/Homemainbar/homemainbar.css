@@ -1,0 +1,79 @@
+
+.home-mainbar{
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+   
+}
+.video-container{
+    top: 0;
+   
+    position: absolute;
+    z-index: -5;
+}
+.home-mainbar h1{
+    z-index: 2;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+}
+.home-mainbar h4{
+    color: white;
+    font-size: 30px;
+}
+
+.home-mainbar-btn button{
+   margin: 20px 5px;
+   padding: 7px 12px;
+}
+.home-mainbar-btn button:first-child{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.842);
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+.home-mainbar-btn button:first-child:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.home-mainbar-btn button:last-child{
+    background-color: white;
+    font-weight: 700;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+@media screen and (max-width:800px) {
+    
+    .home-mainbar{
+        text-align: center;
+       
+
+    }
+}
+@media screen and (max-width: 510px){
+    .home-mainbar h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .home-mainbar-btn{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+    }
+    .home-mainbar-btn button{
+        margin: 5px;
+    }
+}
