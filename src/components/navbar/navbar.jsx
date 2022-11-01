@@ -15,17 +15,17 @@ const Navbar = () => {
     <div className="collapse navbar-collapse web-navbar-list-container" id="navbarSupportedContent">
       <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto">
         <li className="nav-item">
-          <a className="nav-link active me-3" aria-current="page" href="#"><span><Link to="/" style={{color:"white",textDecoration:"none"}}>Home</Link></span></a>
+          <a className="nav-link active me-3" aria-current="page" href="#"><span><Link to="/travel-webpage" style={{color:"white",textDecoration:"none"}}>Home</Link></span></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active me-3" aria-current="page" href="#"><span><Link to="/service" style={{color:"white",textDecoration:"none"}}>Services</Link></span></a>
+          <a className="nav-link active me-3" aria-current="page" href="#"><span><Link to="/travel-webpage/service" style={{color:"white",textDecoration:"none"}}>Services</Link></span></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active me-3" aria-current="page" href="#"><span><Link to="/products" style={{color:"white",textDecoration:"none"}}>Products</Link></span></a>
+          <a className="nav-link active me-3" aria-current="page" href="#"><span><Link to="/travel-webpage/products" style={{color:"white",textDecoration:"none"}}>Products</Link></span></a>
         </li>
      
       
-        <button className='web-navbar-btn'><Link to="/signup" style={{color:"white",textDecoration:"none"}}>SIGN UP</Link></button>
+        <button className='web-navbar-btn'><Link to="/travel-webpage/signup" style={{color:"white",textDecoration:"none"}}>SIGN UP</Link></button>
      
        
       </ul>

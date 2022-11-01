@@ -22,7 +22,7 @@ const HomeMainbar = () => {
       <video autoPlay loop muted src={vid.src}></video></div>
       <h4>What are you waiting for?</h4>
       <div className="home-mainbar-btn">
-      <button><Link to="/home" style={{textDecoration:"none",color:"white"}}>GET STARTED</Link></button>
+      <button><Link to="/travel-webpage/home" style={{textDecoration:"none",color:"white"}}>GET STARTED</Link></button>
       <button onClick={changeBackground}>WATCH TRAILER <img src={play} alt="" /></button>
       </div>
     </div>
